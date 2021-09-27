@@ -23,7 +23,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: '/img/me.jpg',
+    avatar: '/Vuepress-Vdoing-Blog/img/me.png',
     name: 'Lu Ni',
     slogan: '一个努力向上的小白',
   },
