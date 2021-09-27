@@ -12,10 +12,10 @@
 
 ```bash
 # clone the project
-git clone https://github.com/xugaoyi/vuepress-theme-vdoing.git
+git clone git@github.com:3232731490/Vuepress-Vdoing-Blog.git
 
 # enter the project directory
-cd vuepress-theme-vdoing
+cd Vuepress-Vdoing-Blog
 
 # install dependency
 npm install # or yarn install
