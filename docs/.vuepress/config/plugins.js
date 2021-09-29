@@ -88,7 +88,6 @@ module.exports = [
         repo: 'Vuepress-Vdoing-Blog', // GitHub 仓库
         owner: '3232731490', // GitHub仓库所有者
         admin: ['3232731490'], // 对仓库有写权限的人
-        // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
         title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
@@ -101,33 +100,6 @@ module.exports = [
   [
     '@vuepress-reco/vuepress-plugin-kan-ban-niang', // 看板娘
   ],
-  // [
-  //     '@vssue/vuepress-plugin-vssue', 
-  //     {
-  //       platform: 'github-v4', //v3的platform是github，v4的是github-v4
-  //       locale: 'zh', //语言
-  //       repo: 'Vuepress-Vdoing-Blog', // GitHub 仓库
-  //       owner: '3232731490', // GitHub仓库所有者
-  //       clientID: '52e0224cddf7d55b21c5',
-  //       clientSecret: 'd6260497a54706eae5c22c620f9c0008ab82f032',
-  //       autoCreateIssue:true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
-  //     },
-  // ],
-  // [
-  //   '@vuepress-reco/vuepress-plugin-bgm-player', // 音乐播放插件
-  //   {
-  //       audios:[{
-  //         name: '天外来物',
-  //         artist: '薛之谦',
-  //         url: '/bgm/twlw.mp3',
-  //         cover: '/bgm/twlw.jpg'
-  //       },
-  //     ],
-  //     floatStyle:{
-  //       bottom: '200px', 'z-index': '999999' ,
-  //     },
-  //   },
-  // ],
   [
     'vuepress-plugin-meting', // 另一款音乐播放器
     {

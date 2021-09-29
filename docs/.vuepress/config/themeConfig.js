@@ -18,12 +18,12 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'luni', // 必需
+    name: 'nilu', // 必需
     link: 'https://github.com/3232731490', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: '/Vuepress-Vdoing-Blog/img/me.png',
+    avatar: '/img/me.png',
     name: 'Lu Ni',
     slogan: '一个努力向上的小白',
   },
