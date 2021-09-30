@@ -65,7 +65,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:3232731490/Vuepress-Vdoing-Blog.git master:gh-pages
-# git push -f ssh://git@106.14.196.77:222/root/Vuepress-Vdoing-Blog.git master
+# git push -f git@github.com:3232731490/Vuepress-Vdoing-Blog.git master:gh-pages
+git push -f ssh://git@106.14.196.77:222/root/Vuepress-Vdoing-Blog.git master
  
 cd -
